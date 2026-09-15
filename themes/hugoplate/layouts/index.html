@@ -89,13 +89,21 @@
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}
     <section class="section-sm {{ if not (modBool $i 2) }}second-section{{ end }}{{ if (modBool $i 2) }}first-section{{ end }}"> <!-- {{ if (modBool $i 2) }}bg-gradient{{ end }} -->
+      {{ $feature := . }}
       <div class="container">
         <div class="row items-center justify-between">
           <div
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
-            <!--{{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}-->
+            {{ with $feature.image }}
+              <figure class="m-0">
+                {{ partial "image" (dict "Src" . "Alt" ($feature.image_alt | default $feature.title) "Class" "w-full h-auto rounded-2xl shadow-lg" "DisplayXL" "600x" "DisplayLG" "480x" "DisplayMD" "400x") }}
+                {{ with $feature.caption }}
+                  <figcaption class="mt-2 text-sm italic text-right opacity-70">{{ . | markdownify }}</figcaption>
+                {{ end }}
+              </figure>
+            {{ end }}
           </div>
           <div
             class="{{ if not (modBool $i 2) }}
