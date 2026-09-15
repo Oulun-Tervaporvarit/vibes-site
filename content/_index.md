@@ -15,7 +15,8 @@ banner:
 # Features
 features:
   - title: "Mitä on vibes?"
-    image: "/images/vibes-leima.png"
+    image: "/images/haalarimerkit.jpg"
+    image_alt: "VIBEs-haalarimerkkejä"
     content: "Oulun Tervaporvarien Nuorkauppakamarin VIBEs-projektin tavoite on edistää nuorten mielenterveyttä ja hyvinvointia Oulun alueella. Se on vastalause ’’good vibes only’’ -ideologialle, koska kun
 keskustellaan mielenterveydestä on otettava huomioon, että kaikki
 erilaiset tunteet ovat sallittuja ja niistä tulee pystyä puhumaan
@@ -35,7 +36,9 @@ hemmottelua. Tämän VIBEs haluaa Oulun seudun nuorille mahdollistaa – täysin
       link: "/about"
 
   - title: "Tule mukaan vibesiin"
-    image: "/images/background-smiles.png"
+    image: "/images/lasna-vibes.jpg"
+    image_alt: "Läsnä with VIBEs -kulkue Oulussa"
+    caption: "© Mikko Halvari / Kaleva"
     content: "VIBEs tarjoaa yhteistyökumppaneille mahdollisuuden näkyvään ja merkitykselliseen vastuullisuustyöhön. Yhteistyössä autamme nuoria voimaan paremmin ja samalla vahvistamme yritysten brändiä. VIBEs tarjoaa yrityksille valmiin ja helpon konseptin, jonka kautta tehdään aidosti hyvää ja autetaan nuoria löytämään omat tapansa voida paremmin."
     #bulletpoints:
     #  - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
