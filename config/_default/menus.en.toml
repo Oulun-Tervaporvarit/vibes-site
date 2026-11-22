@@ -16,10 +16,10 @@ name = "Kouluille"
 url = "/kouluille"
 weight = 3
 
-[[main]]
-name = "Tue toimintaa"
-url = "/tue"
-weight = 4
+#[[main]]
+#name = "Tue toimintaa"
+#url = "/tue"
+#weight = 4
 
 #[[main]]
 #name = "Vibes-passi"
