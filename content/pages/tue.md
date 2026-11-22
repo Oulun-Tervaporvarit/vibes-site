@@ -2,7 +2,7 @@
 title: "Tue VIBEsiä – MobilePay-pienkeräys"
 meta_title: "Tue VIBEsiä – MobilePay-pienkeräys"
 description: "Tue oululaisten nuorten mielenterveyttä lahjoittamalla VIBEs-projektin pienkeräykseen. Keräys alkaa 1.8.2026."
-draft: false
+draft: true
 ---
 
 Voit tukea oululaisten nuorten mielenterveyttä lahjoittamalla VIBEs-projektin pienkeräykseen. **Keräys alkaa 1.8.2026.** Jo pienellä summalla mahdollistat nuorille maksuttomia hyvinvointia tukevia palveluita.
